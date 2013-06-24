@@ -1,0 +1,10 @@
+{
+  "name": "Awection",
+  "description": "It's an auction. It's awesome. It's an awection! ",
+  "version": "2.0.0",
+  "private": true,
+  "dependencies": {
+    "express": "3.2.6",
+    "jade": "0.31.2"
+  }
+}
