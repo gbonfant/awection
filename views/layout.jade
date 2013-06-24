@@ -1,5 +1,8 @@
 !!! 5
-  html(lang='en')
-    head
-  title= title
-  body!= body
+html(lang='en')
+  head
+    title= title
+    link(href="stylesheets/base-min.css", rel="stylesheet", type="text/css")
+    link(href="stylesheets/pure-min.css", rel="stylesheet", type="text/css")
+  body
+    block content
